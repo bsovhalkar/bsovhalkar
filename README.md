@@ -1,6 +1,4 @@
-from pathlib import Path
-
-readme = r'''# 💫 About Me:
+# 💫 About Me:
 Hi, I'm Bhavanesh 👋<br>
 **Computer Engineering Student | AI/ML Developer | Software & DevOps Enthusiast**<br><br>
 I'm a Computer Engineering undergraduate at **JSPM's Rajarshi Shahu College of Engineering, Pune**, graduating in 2027. I enjoy building practical software solutions and exploring how AI, machine learning, backend engineering, and cloud-native technologies can solve real-world problems.<br>
@@ -66,14 +64,8 @@ Git · GitHub · Docker · Kubernetes · Minikube · Linux · Ubuntu · Kali Lin
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=bsovhalkar&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
 [![](https://komarev.com/ghpvc/?username=bsovhalkar&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-'''
-path = Path("/mnt/data/README.md")
-path.write_text(readme, encoding="utf-8")
-print(f"Updated {path} ({path.stat().st_size} bytes)")
